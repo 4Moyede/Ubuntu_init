@@ -1,0 +1,6 @@
+
+# .bash_alias
+
+alias li='ls -l'
+alias vi='nvim'
+
