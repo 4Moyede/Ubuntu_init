@@ -8,5 +8,5 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 cp src/bash_aliases ~/.bash_aliases
 cp src/zshrc ~/.zshrc
-cp src/kardan.zsh-theme ~/.oh-my-zsh/themes/
+cp src/gaejuk.zsh-theme ~/.oh-my-zsh/themes/
 source ~/.zshrc
