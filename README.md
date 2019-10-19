@@ -1,14 +1,28 @@
-# My Ubuntu Setting
 
-## overview
+# Execute
 
-![ubuntuLogo](./img/ubuntu_logo.jpeg)
+## Screenshot
 
-While using Ubuntu for the first time, we need to install program and modify configuration file. 
-The Objective for this Project is to simplify the setup process.
+![execute](./img/execute.png)
+
+![execute](./img/execute_check.png)
 
 ## install list
-+ neovim
-+ bundle
-+ zsh
+
++ Zsh
 + oh-my-zsh
++ NeoVim
++ Bundle
++ Gnome
++ Dash to Dock
++ Tweak tool
++ UIM
++ VScode
++ Chrome
++ Foxit PDF Reader
++ Slack
+
+## Requirements
+
++ Ubuntu 18.04 LTS
++ Python 3.6.8
