@@ -4,14 +4,15 @@ import os
 
 install_list = [
     # Name, Detail, Check, File
-    ["ZSH", "Z Unix Shell", " ", "zsh_terminial.sh"],
-    ["neoVIM", "Hyperextensible Vim-based Text Editor", " ", "neovim_idle.sh"],
+    ["ZSH", "Z Unix Shell", " ", "zsh_terminal.sh"],
+    ["neoVIM", "Hyperextensible Vim-based Text Editor", " ", "neovim_idle.sh "],
     ["GUI", "Gnome, Dash to dock, Tweak", " ", "gnome.sh"],
     ["UIM", "for hangul", " ", "hangul_uim.sh"],
     ["VSCode", "Visual Studio Code", " ", "vscode.sh"],
     ["Chrome", "Google Chrome Web Browser", " ", "chrome.sh"],
     ["Foxit Reader", "Foxit PDF Reader", " ", "PDFReader.sh"],
     ["Slack", "Cloud-based Proprietary Instant Messaging Platform", " ", "slack.sh"],
+    ["test", "test ubuntu init", " ", "test.sh"]
 ]
 
 
@@ -36,6 +37,7 @@ def user_choice():
                 install_list[choice][2] = ' '
 
 
+os.system('sudo chmod 655 sh/*')
 def start_install():
     os.system('mkdir tar')
     os.system('clear')
@@ -43,7 +45,7 @@ def start_install():
         if p[2] is 'x':
             print(" Install " + p[0] + "...")
             print("---------------------------------------------------")
-            os.system('./sh/' + p[3])
+            os.system('. ./sh/' + p[3])
             print("---------------------------------------------------")
 
 
