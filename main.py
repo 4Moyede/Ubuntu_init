@@ -12,7 +12,6 @@ install_list = [
     ["Chrome", "Google Chrome Web Browser", " ", "chrome.sh"],
     ["Foxit Reader", "Foxit PDF Reader", " ", "PDFReader.sh"],
     ["Slack", "Cloud-based Proprietary Instant Messaging Platform", " ", "slack.sh"],
-    ["test", "test ubuntu init", " ", "test.sh"]
 ]
 
 
