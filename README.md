@@ -13,14 +13,6 @@
 + oh-my-zsh
 + NeoVim
 + Bundle
-+ Gnome
-+ Dash to Dock
-+ Tweak tool
-+ UIM
-+ VScode
-+ Chrome
-+ Foxit PDF Reader
-+ Slack
 
 ## Requirements
 

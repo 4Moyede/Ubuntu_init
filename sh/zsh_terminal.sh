@@ -10,7 +10,6 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # copy customized configuration file
 cp src/bash_aliases ~/.bash_aliases
 cp src/zshrc ~/.zshrc
-cp src/gaejuk_theme ~/.oh-my-zsh/themes/gaejuk.zsh-theme
 
 # install zsh plugin
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
