@@ -32,7 +32,6 @@ def user_choice():
 
 os.system('sudo chmod 655 sh/*')
 def start_install():
-    os.system('mkdir tar')
     os.system('clear')
     for p in install_list:
         if p[2] == 'x':
@@ -40,7 +39,6 @@ def start_install():
             print("---------------------------------------------------")
             os.system('. ./sh/' + p[3])
             print("---------------------------------------------------")
-
 
 user_choice()
 start_install()
