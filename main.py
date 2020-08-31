@@ -16,11 +16,11 @@ def user_choice():
     while choice is not done:
         os.system('clear')
         print("\n\n\t Install list")
-        print("\t----------------------------------------")
+        print("\t"+"-"*60)
         for p in range(len(install_list)):
             print("\t [%s] %d. %s : %s" % (install_list[p][2], p+1, install_list[p][0], install_list[p][1]))
         print("\t [ ] %d. Done. Start Install" % (done + 1))
-        print("\t----------------------------------------")
+        print("\t"+"-"*60)
         choice = int(input("\t--> ")) - 1
 
         if 0 <= choice < done:
