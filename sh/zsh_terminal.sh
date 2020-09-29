@@ -1,6 +1,6 @@
 
 # install zsh
-sudo apt install zsh
+sudo apt install -y zsh curl
 sudo chsh -s /usr/bin/zsh
 
 # install oh-my-zsh

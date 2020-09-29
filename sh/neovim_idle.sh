@@ -1,6 +1,6 @@
 
 # install neovim
-sudo apt install neovim
+sudo apt install -y neovim curl
 
 # download bundle directory
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
