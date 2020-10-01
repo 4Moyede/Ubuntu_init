@@ -4,8 +4,11 @@ import os
 
 install_list = [
     # Name, Detail, Check, File
+    ["Background", "copy background to Picture directory", " ", "background.sh"],
     ["ZSH", "Z Unix Shell", " ", "zsh_terminal.sh"],
-    ["neoVIM", "Hyperextensible Vim-based Text Editor", " ", "neovim_idle.sh "],
+    ["NeoVIM", "Hyperextensible Vim-based Text Editor", " ", "neovim_idle.sh "],
+    ["Chrome", "Google Chrome Web Browser", " ", "google_chrome.sh"],
+    ["Font", "Install Nerd Font", " ", "nerd_font.sh"],
 ]
 
 
@@ -29,16 +32,15 @@ def user_choice():
             elif install_list[choice][2] == 'x':
                 install_list[choice][2] = ' '
 
-
-os.system('sudo chmod 655 sh/*')
 def start_install():
     os.system('clear')
     for p in install_list:
         if p[2] == 'x':
             print(" Install " + p[0] + "...")
-            print("---------------------------------------------------")
+            print("-"*60)
             os.system('. ./sh/' + p[3])
-            print("---------------------------------------------------")
+            print("-"*60)
+
 
 user_choice()
 start_install()
