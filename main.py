@@ -9,6 +9,7 @@ install_list = [
     ["NeoVIM", "Hyperextensible Vim-based Text Editor", " ", "neovim_idle.sh "],
     ["Chrome", "Google Chrome Web Browser", " ", "google_chrome.sh"],
     ["Font", "Install Nerd Font", " ", "nerd_font.sh"],
+    ["Gnome Extension", "Install gnome shell extension and tweak", " ", "gnome-shell.sh"],
 ]
 
 
